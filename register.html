@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Register</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <html lang="en" class="full-height">
+
+    <!--Main Navigation-->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./img/logo-without-text.png" width="100" alt=""/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./addPost.html">Add Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Main Navigation-->
+    <main class="mb-5 px-5 container blogContents">
+      <div class="d-flex loginSignUpCard">
+        <div class="image">
+          <img src="https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=630&q=80" alt="image">
+        </div>
+        <div class="loginForm">
+          <h3 class="indigo-text py-5 text-center text-bold">Join &nbsp;<img src="./img/logo-without-text.png" alt="" width="100"></h3>
+           <!-- Form -->
+          <form class="px-5" style="color: #757575;" action="#!">
+
+            <!-- Name -->
+            <div class="form-row">
+              <div class="col">
+                  <!-- First name -->
+                  <div class="md-form">
+                      <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                      <label for="materialRegisterFormFirstName">First name</label>
+                  </div>
+              </div>
+              <div class="col">
+                  <!-- Last name -->
+                  <div class="md-form">
+                      <input type="email" id="materialRegisterFormLastName" class="form-control">
+                      <label for="materialRegisterFormLastName">Last name</label>
+                  </div>
+              </div>
+           </div>
+
+           <!-- Date -->
+            <div class="md-form mt-0">
+              DOB:
+              <input type="date" id="date-picker-example" class="form-control datepicker">
+            </div>
+
+
+           <!-- E-mail -->
+            <div class="md-form">
+              <input type="email" id="materialRegisterFormEmail" class="form-control">
+              <label for="materialRegisterFormEmail">E-mail</label>
+          </div>
+
+          <!-- Password -->
+          <div class="md-form">
+              <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+              <label for="materialRegisterFormPassword">Password</label>
+              <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                  At least 8 characters and 1 digit
+              </small>
+          </div>
+
+            <!-- Sign in button -->
+            <div class="text-center mt-5">
+              <button class="btn loginButton">Join</button>
+            </div>
+
+          </form>
+          <!-- Form -->
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+      <div class="px-4" style="background-color: #4c3cce;">
+          <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">Get connected with us on social networks!</h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter white-text mr-4"> </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i class="fab fa-google-plus-g white-text mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram white-text"> </i>
+              </a>
+
+            </div>
+            <!-- Grid column -->
+
+          </div>
+          <!-- Grid row-->
+      </div>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center text-dark py-3 whiteFooter"><b>© 2019 Copyright : </b>
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo-without-text.png" width="100" alt=""/>
+        </a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
